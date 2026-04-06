@@ -2,6 +2,8 @@
 // be hardcoded to certain classes. For example, other roles can be added
 // later on (i.e. Warehouse worker) that can just implement the restocking
 // behaviour
+package model;
+
 public interface CanRestock {
     public void restock(Ingredient ingredient, int amount);
 }

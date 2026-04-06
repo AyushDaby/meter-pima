@@ -1,4 +1,5 @@
 // Card payment is much simpler, the exact amount is just taken from the balance
+package model;
 
 public class CardPayment extends Payment {
     private final String cardId;

@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Payment {
     private float amountOfMoneyGiven;
 

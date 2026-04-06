@@ -1,5 +1,7 @@
 // MenuItem is abstract because there won't ever be a plain MenuItem object,
 // only Food and Drink objects
+package model;
+
 public abstract class MenuItem {
     private int itemId;
     private String name;

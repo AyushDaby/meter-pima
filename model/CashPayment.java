@@ -1,4 +1,5 @@
 // Payment in cash is simple, just take the money and return the change
+package model;
 
 public class CashPayment extends Payment {
     public CashPayment(float amountOfMoneyGiven) {

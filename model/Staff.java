@@ -1,3 +1,5 @@
+package model;
+
 public class Staff {
     private final int staffId; // final just means that the id will not change
     private final String name;
